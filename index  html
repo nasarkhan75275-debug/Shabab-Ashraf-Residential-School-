@@ -1,1 +1,120 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DTL Shabab Ashraf Residential School - Baghra, Siwan</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif}
+body{background:#f5f5f5;color:#222}
+header{background:#0b3d91;color:white;padding:15px;text-align:center}
+header h1{font-size:26px}
+header p{font-size:14px;opacity:.9}
+nav{background:#ffcc00;display:flex;justify-content:center;gap:15px;padding:10px;flex-wrap:wrap}
+nav a{color:#000;text-decoration:none;font-weight:bold;font-size:14px}
+.hero{background:#0b3d91;color:white;text-align:center;padding:40px 15px}
+.hero h2{font-size:30px;margin-bottom:10px}
+.hero p{font-size:16px}
+.hero button{background:#ffcc00;border:none;padding:12px 25px;font-weight:bold;border-radius:25px;margin-top:15px}
+.section{background:white;margin:15px;padding:20px;border-radius:12px;box-shadow:0 2px 8px rgba(0,0,0,.1)}
+.section h2{color:#0b3d91;margin-bottom:10px;border-left:5px solid #ffcc00;padding-left:10px}
+.card{background:#eef4ff;padding:15px;border-radius:10px;margin-top:10px}
+.card b{color:#0b3d91}
+.gallery{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:10px}
+.gallery img{width:100%;height:140px;object-fit:cover;border-radius:10px;background:#ddd}
+.gallery p{text-align:center;font-size:12px;color:#666}
+footer{background:#0b3d91;color:white;text-align:center;padding:20px;font-size:14px}
+input,textarea{width:100%;padding:10px;margin:8px 0;border:1px solid #ccc;border-radius:8px}
+.btn{background:#0b3d91;color:white;border:none;padding:12px;border-radius:8px;width:100%;font-weight:bold}
+</style>
+</head>
+<body>
 
+<header>
+<h1>DTL Shabab Ashraf Residential School</h1>
+<p>Baghra, Siwan | Padho, Badho, Aage Badho</p>
+</header>
+
+<nav>
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#director">Director</a>
+<a href="#admission">Admission</a>
+<a href="#gallery">Gallery</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<div class="hero" id="home">
+<h2>Welcome to Our School</h2>
+<p>Behtar Taleem, Behtar Tarbiyat, Behtar Mustaqbil</p>
+<p>Residential + Day Scholar - Nursery to Class 10</p>
+<button onclick="document.getElementById('admission').scrollIntoView()">Admission Ke Liye Apply Karein</button>
+</div>
+
+<div class="section" id="about">
+<h2>About Our School</h2>
+<p>DTL Shabab Ashraf Residential School, Baghra, Siwan me sthit ek behtareen residential school hai. Yahan baccho ko sirf kitabi padhai nahi, balki achhe sanskar, discipline aur Islamic values ke saath modern education di jati hai.</p>
+<div class="card">
+<b>Hamari Khas Baatein:</b><br>
+✅ Experienced Teachers<br>
+✅ Hostel Facility - Safe & Clean<br>
+✅ English, Hindi, Urdu & Arabic<br>
+✅ Computer & Smart Classes<br>
+✅ Sports & Daily Namaz / Dua
+</div>
+</div>
+
+<div class="section" id="director">
+<h2>Our Leadership</h2>
+<div class="card">
+<b>Directed By: Kamal Ahmed Khan</b><br>
+School ke Director Kamal Ahmed Khan sir ka vision hai ki Siwan ke har bacche ko achhi taleem mile, chahe wo kisi bhi gaon se ho.
+</div>
+<div class="card">
+<b>Managed By: Athar Obaid</b><br>
+School ka poora management Athar Obaid sir ke haath me hai. Hostel, Teachers aur Baccho ki dekh-bhal unki zimmedari hai.
+</div>
+</div>
+
+<div class="section" id="admission">
+<h2>Admission Form</h2>
+<p>Nursery se Class 10 tak admission open hai. Form bhariye, hum call karenge.</p>
+<input type="text" placeholder="Bacche ka Naam">
+<input type="text" placeholder="Father / Guardian ka Naam">
+<input type="text" placeholder="Class - Kis class me admission chahiye?">
+<input type="text" placeholder="Mobile Number">
+<input type="text" placeholder="Gaon / Address">
+<textarea placeholder="Kuch aur batana hai?"></textarea>
+<button class="btn">Admission Request Bhejein</button>
+<p style="font-size:12px;text-align:center;margin-top:8px">Ya direct school aake miliye - Baghra, Siwan</p>
+</div>
+
+<div class="section" id="gallery">
+<h2>School Gallery</h2>
+<p>Yahan school ki photos aayengi</p>
+<div class="gallery">
+<div><img src="photo1.jpg"><p>School Building</p></div>
+<div><img src="photo2.jpg"><p>Classroom</p></div>
+<div><img src="photo3.jpg"><p>Hostel</p></div>
+<div><img src="photo4.jpg"><p>Students</p></div>
+</div>
+<p style="font-size:13px;color:#555;margin-top:10px">Note: Apni photos ka naam photo1.jpg, photo2.jpg rakh ke isi folder me daal dena, apne aap aa jayengi.</p>
+</div>
+
+<div class="section" id="contact">
+<h2>Contact Us</h2>
+<b>DTL Shabab Ashraf Residential School</b><br>
+Address: Baghra, Siwan, Bihar<br>
+Directed By: Kamal Ahmed Khan<br>
+Management By: Athar Obaid<br><br>
+School Time: 8 AM - 4 PM<br>
+Hostel: 24 Hours Available
+</div>
+
+<footer>
+© 2026 DTL Shabab Ashraf Residential School, Baghra Siwan<br>
+Directed By Kamal Ahmed Khan | Managed By Athar Obaid
+</footer>
+
+</body>
+</html>
